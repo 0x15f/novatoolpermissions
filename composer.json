@@ -1,5 +1,5 @@
 {
-    "name": "silvanite/novatoolpermissions",
+    "name": "0x15f/novatoolpermissions",
     "description": "Laravel Nova Permissions (Roles and Permission based Access Control (ACL))",
     "keywords": [
         "laravel",
