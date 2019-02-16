@@ -78,8 +78,7 @@ class Role extends Resource
                 return count($this->users);
             })->onlyOnIndex(),
 
-            BelongsToMany::make(__('Users'), 'users', config('novatoolpermissions.userResource', 'App\Nova\User'))
-                ->searchable(),
+            BelongsToMany::make(__('Users'), 'users', config('novatoolpermissions.userResource', 'App\Nova\User')),
         ];
     }
 
